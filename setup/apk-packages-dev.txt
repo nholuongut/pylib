@@ -1,0 +1,27 @@
+#
+#  Author: Nho Luong
+#  Date: 2013-01-06 15:45:00 +0000 (Sun, 06 Jan 2013)
+#
+#  https://github.com/nholuongut/DevOps-Python-tools
+#
+#  License: see accompanying Nho Luong LICENSE file
+#
+#  https://www.linkedin.com/in/nholuong
+#
+
+# ============================================================================ #
+#                        Alpine Dev Package Requirements
+# ============================================================================ #
+
+alpine-sdk
+# installed by bash-tools submodule now
+#gcc
+
+cyrus-sasl-dev
+krb5-dev
+libffi-dev
+linux-headers
+# conflicts with libressl-dev which is needed by mariadb-dev
+#openssl-dev
+libressl-dev
+py-cryptography

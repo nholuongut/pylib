@@ -1,0 +1,26 @@
+#
+#  Author: Nho Luong
+#  Date: 2013-01-06 15:45:00 +0000 (Sun, 06 Jan 2013)
+#
+#  https://github.com/nholuongut/DevOps-Python-tools
+#
+#  License: see accompanying Nho Luong LICENSE file
+#
+#  https://www.linkedin.com/in/nholuong
+#
+
+# ============================================================================ #
+#                          Deb Package Requirements
+# ============================================================================ #
+
+# installed by bash-tools submodule now
+#git
+#python
+#wget
+
+# IPython Notebook fails and leave apt broken
+# The following packages have unmet dependencies:
+#  python-zmq : Depends: libzmq1 but it is not going to be installed
+#  E: Unmet dependencies. Try 'apt-get -f install' with no packages (or specify a solution).
+#
+#ipython-notebook || :
